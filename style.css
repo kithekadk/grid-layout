@@ -89,3 +89,22 @@ body{
 .blue>p , .grey>p, .white > p, .white2 > p, .black > p{
     color: grey;
 }
+
+@media screen and (max-width:768px){
+    body{
+        background-color: whitesmoke;
+    }
+
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 975px){
+    
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+}
